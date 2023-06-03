@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.company.security.config.AppProperties",
+      "sourceType": "com.company.security.config.AppProperties"
+    },
+    {
+      "name": "app.oauth2",
+      "type": "com.company.security.config.AppProperties$OAuth2",
+      "sourceType": "com.company.security.config.AppProperties",
+      "sourceMethod": "getOauth2()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.oauth2.authorized-redirect-uris",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.company.security.config.AppProperties$OAuth2"
+    }
+  ],
+  "hints": []
+}
